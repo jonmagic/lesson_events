@@ -9,10 +9,14 @@ Example lesson.json:
 {
   title: "Animations in JavaScript",
   summary: "Build animations in the web browser using javascript and the D3.js library.",
-  location: "GitHub 548 4th St San Francisco 94107",
-  event_date: "Sat Apr 20 2013 10:00:00 GMT-0700 (PDT)",
-  length_in_hours: 2,
-  teacher_github_username: "jonmagic"
+  events: [
+    {
+      location: "GitHub 548 4th St San Francisco CA 94107",
+      date: "Sat Apr 20 2013 10:00:00 GMT-0700 (PDT)",
+      length_in_hours: 2,
+      teacher_github_username: "jonmagic"
+    }
+  ]
 }
 ```
 
