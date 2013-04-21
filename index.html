@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lesson Events</title>
+  <link rel="stylesheet" href="/assets/stylesheets/lib/foundation.css">
+  <link rel="stylesheet" href="/assets/stylesheets/app.css">
+</head>
+<body>
+
+  <script type="text/x-handlebars">
+    <h1>Lesson Events</h1>
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="index">
+    <p>Information about why these lessons and events exist and the organization or person behind them.</p>
+
+    <h2>Upcoming Event: CoderDojo - San Francisco</h2>
+    <h3>Saturday, April 20</h3>
+    <img src="/assets/images/animations_in_javascript.jpg">
+    <h3>Animations in Javascript</h3>
+    <p>Build animations in the web browser using javascript and the D3.js library.</p>
+
+    <h2>Subscribe to Upcoming Event Email</h2>
+    <form>
+      <label for="email">Enter your email address</label>
+      <input type="text" placeholder="Email address">
+      <button>Subscribe</button>
+    </form>
+  </script>
+
+  <script src="/assets/javascripts/libs/jquery-1.9.1.js"></script>
+  <script src="/assets/javascripts/libs/moment.js"></script>
+  <script src="/assets/javascripts/libs/handlebars-1.0.0-rc.3.js"></script>
+  <script src="/assets/javascripts/libs/ember-1.0.0-rc.2.js"></script>
+  <script src="/assets/javascripts/libs/ember-data.js"></script>
+  <script src="/assets/javascripts/app.js"></script>
+</body>
+</html>
