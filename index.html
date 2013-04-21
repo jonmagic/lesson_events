@@ -9,26 +9,64 @@
 <body>
 
   <script type="text/x-handlebars">
-    <h1>Lesson Events</h1>
+    <div class="container">
+      <div class="row">
+        <div class="small-12 large-12 columns">
+          <h1>Lesson Events</h1>
+        </div>
+      </div>
 
-    {{outlet}}
+      {{outlet}}
+    </div>
   </script>
 
   <script type="text/x-handlebars" data-template-name="index">
-    <p>Information about why these lessons and events exist and the organization or person behind them.</p>
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <p>Information about why these lessons and events exist and the organization or person behind them.</p>
+      </div>
+    </div>
 
-    <h2>Upcoming Event: CoderDojo - San Francisco</h2>
-    <h3>Saturday, April 20</h3>
-    <img src="/assets/images/animations_in_javascript.jpg">
-    <h3>Animations in Javascript</h3>
-    <p>Build animations in the web browser using javascript and the D3.js library.</p>
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <h2>Upcoming Event:<h2>
+      </div>
+      <div class="small-12 large-6 columns">
+        <h3>CoderDojo - San Francisco</h3>
+      </div>
+      <div class="small-12 large-6 columns">
+        <h3>Saturday, April 20</h3>
+      </div>
+    </div>
 
-    <h2>Subscribe to Upcoming Event Email</h2>
-    <form>
-      <label for="email">Enter your email address</label>
-      <input type="text" placeholder="Email address">
-      <button>Subscribe</button>
-    </form>
+    <div class="row">
+      <div class="small-12 large-6 columns">
+        <img src="/assets/images/animations_in_javascript.jpg">
+      </div>
+      <div class="small-12 large-6 columns">
+        <h3>Animations in Javascript</h3>
+        <p>Build animations in the web browser using javascript and the D3.js library.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <h2>Subscribe to Upcoming Event Email</h2>
+        <form>
+          <div class="row">
+            <div class="small-12 large-3 columns">
+              <label for="email">Enter your email address</label>
+            </div>
+            <div class="small-12 large-6 columns">
+              <input type="text" placeholder="Email address">
+            </div>
+            <div class="small-12 large-3 columns">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </script>
 
   <script src="/assets/javascripts/libs/jquery-1.9.1.js"></script>
